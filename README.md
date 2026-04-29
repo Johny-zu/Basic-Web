@@ -1,0 +1,2 @@
+# Repositorio para paginas web basicas
+En este repositorio se practicara los fundamentos de paginas web, funcionamientos, implementaciones con JS, CSS y HTML, con esto se estara dando una base de conocimientos para la pruebas posteriores para nuevos proyectos
