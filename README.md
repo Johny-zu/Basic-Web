@@ -7,3 +7,6 @@ En el siguiente encarpetado se veran ejercicios basicos para la adaptacion del h
 - Atributos
 - capturas por usuario
 - formularios
+
+## Informacion integrada
+En el siguiente encarpetado se veran mas cosas de la web pero con la integracion de JS para darle funcionalida a las paginas
