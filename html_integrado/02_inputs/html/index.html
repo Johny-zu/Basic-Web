@@ -13,20 +13,21 @@
             <h2>Tipo 1 de formulario</h2>
             <p>Formularios textules: </p><br>
             <form action="">
-                <label for="nombre">Nombre: </label>
-                <input type="text" name="nombre" id="nombre">
-                <br>
-                <label for="apellido">Apellido: </label>
-                <input type="text" name="apellido" id="apellido">
-                <br>
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email">
-                <br>
-                <label for="pass">Contraseña: </label>
-                <input type="password" name="pass" id="pass">
+                <label for="nombreInput">Nombre: </label>
+                <input type="text" name="nombre" id="nombreInput">
                 <br><br>
-                <input type="submit" value="Enviar" name="" id="">
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellidoInput">
+                <br><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="emailInput">
+                <br><br>
+                <label for="pass">Contraseña: </label>
+                <input type="password" name="pass" id="passInput">
+                <br><br>
+                <input type="button" value="Enviar" name="" id="btnEnviar">
                 <input type="reset" name="" id="">
+                <div id="resultadoDiv"></div>
             </form>
         </div>
         <div class="formulario">
@@ -77,5 +78,6 @@
             </form>
         </div>
     </div>
+    <script src="../JS/script.js"></script>
 </body>
 </html>
