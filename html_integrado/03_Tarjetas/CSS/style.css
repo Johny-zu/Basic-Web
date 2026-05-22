@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-formularios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.formulario {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+}
