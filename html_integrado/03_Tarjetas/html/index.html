@@ -12,24 +12,27 @@
             <h2>Formulario</h2>
             <form action="">
                 <br>
-                <label for="">Nombre: </label>
-                <input type="text">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre", id="nombreInput">
                 <br><br>
-                <label for="">Profesion: </label>
-                <input type="text">
+                <label for="profesion">Profesion: </label>
+                <input type="text" name="profesion" id="profesionInput">
                 <br><br>
-                <label for="">Email: </label>
-                <input type="text">
+                <label for="email">Email: </label>
+                <input type="text" id="emailInput" name="email">
                 <br><br>
-                <label for="">Telefono: </label>
-                <input type="text">
+                <label for="telefono">Telefono: </label>
+                <input type="text", id="telefonoInput" name="telefono">
                 <br><br>
-                <input type="button" value="Generar tarjeta">
+                <input type="button" value="Generar tarjeta" id="btnEnviar">
+                <input type="reset">
             </form>
         </div>
         <div class="formulario">
             <h2>Tarjeta</h2>
+            <div id="resultadoDiv"></div>
         </div>
     </div>
+    <script src="../JS/script.js"></script>
 </body>
 </html>
