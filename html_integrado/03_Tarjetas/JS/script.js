@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const inputTelefono = document.getElementById('telefonoInput')
     const botonEnviar = document.getElementById('btnEnviar')
     const divResultado = document.getElementById('resultadoDiv')
+    const botonReset = document.getElementById('btnReset')
 
     function procesarFormulario(){
         const nombre = inputNombre.value
@@ -43,4 +44,9 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     botonEnviar.addEventListener('click', procesarFormulario)
+
+    botonReset.addEventListener('click', function() {
+        divResultado.classList.remove('mostrar')
+        divResultado.innerHTML = ''
+    })
 })
