@@ -1,5 +1,5 @@
 body.fondo{
-    background-color: brown;
+    background-color: rgb(124, 26, 26);
 }
 
 p.titulo1{
@@ -9,4 +9,9 @@ p.titulo1{
 
 p.textos1{
     color: white;
+    padding: 15px;
+    border: 10px solid powderblue;
+    margin: 20px;
+    text-align: center;
+    margin:auto 50px;
 }
